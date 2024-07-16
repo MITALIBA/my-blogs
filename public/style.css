@@ -13,11 +13,11 @@
 }
 .my-5{
     border-radius: 3%;
-     
+    background-color: aliceblue;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .position-relative{
-    background-color: rgb(236, 243, 243);
+    background-color: rgb(131, 221, 221);
 }
 .p-md-5 {
     background-color: blue;
@@ -36,4 +36,16 @@
 .inst{
     
     margin-left: 80%;
+}
+#commentForm{
+    width: 300px;
+    
+    
+}
+#commentInput{
+    background-color: rgb(191, 210, 227);
+}
+#commentList{
+    width: 300px;
+    padding-top: 1rem;
 }
