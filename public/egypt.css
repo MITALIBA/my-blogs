@@ -1,0 +1,155 @@
+.map{
+   
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+}
+.unrl{
+    margin-top: 40px;
+}
+body{
+    background: linear-gradient(rgb(230, 190, 190),rgb(223, 255, 243),rgb(122, 217, 230),rgb(230, 133, 224));
+}
+.tutan{
+    text-align: center;
+    
+    
+}
+.profile-img{
+    width: 500px;
+    border-radius: 1%;
+    padding-left: 1%;
+    margin-left: 5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Container and Content Styling */
+.container-fluid {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inria Serif', serif;
+}
+
+.heading h1 {
+    font-family: 'Source Serif 4', serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title, .giza, .curse, .stone, .temple {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    color: #fff1f1;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Carousel Styling */
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-caption {
+    
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Content beside carousel */
+.carousel-content {
+    display: none;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .carousel-container {
+        flex-direction: row;
+    }
+
+    .carousel-inner {
+        width: 60%;
+    }
+
+    .carousel-content {
+        display: block;
+        width: 40%;
+        padding: 20px;
+        font-size: 1rem;
+        color: #211e1e;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .container-fluid {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p, ul {
+        font-size: 1rem;
+    }
+}
+.para{ display: flex;
+    padding-left: 10px;
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.25rem;
+    text-align: center;
+    
+    text-wrap: initial;
+}
