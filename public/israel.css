@@ -1,0 +1,72 @@
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjust margins and padding for all content */
+body {
+    background: linear-gradient(rgb(255, 255, 255),rgb(147, 239, 245),rgb(255, 255, 255));
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+    font-family: 'Lora', serif;
+}
+
+header, .begin, .Intro, .masada, .faith, .puzzle, .mount, .marvel, .Conclusion, .end {
+    padding:20px;
+    margin: 20px;
+    background: linear-gradient(rgb(214, 187, 191),rgb(152, 220, 227),rgb(228, 228, 247));
+    border-radius: 2%;
+    
+}
+
+/* Transparent Dome image */
+.dome .imgcontainer img {
+    opacity: 0.9; /* Adjust transparency here */
+}
+
+/* Make sure content behind the Dome image is visible */
+.dome {
+    position: relative;
+    z-index: 1;
+}
+
+.dome .cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(245, 248, 250, 0.4); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Ensure the content in cards is properly visible */
+.dome .cards .card {
+    margin: 10px 0;
+}
+
+.dome .cards .starter-heading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .dome .cards .starter-heading {
+        font-size: 1.5em;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Conclusion{
+    background: linear-gradient(rgb(214, 187, 191),rgb(152, 220, 227),rgb(228, 228, 247));
+    border-radius: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
