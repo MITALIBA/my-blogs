@@ -1,0 +1,35 @@
+body {
+    position: relative;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('images/img/baclground.jpg') center/cover no-repeat fixed;
+    opacity: 0.3; /* Adjust opacity to make the image faint */
+    z-index: -1; /* Ensure it stays in the background */
+}
+.title2{
+    margin-bottom: 10%;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+}
+.box{
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+
+/* Additional customization for smaller screens */
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100%; /* Ensures the image fits within smaller screen sizes */
+    }
+}
