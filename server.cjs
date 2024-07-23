@@ -13,9 +13,7 @@ const COMMENTS_FILE = path.join(__dirname, 'comments.json');
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-app.get("/about", (req,res)=>{
-    res.render("about.html");
-});
+
 
 
 app.get('/comments', (req, res) => {
