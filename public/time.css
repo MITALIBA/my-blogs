@@ -25,6 +25,47 @@ body::before {
     margin-right: 8%;
 
 }
+   /* footer icons */
+   footer .social_icon,
+   footer .menu {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 0;
+   }
+   
+   footer .social_icon li,
+   footer .menu li {
+     list-style: none;
+   }
+   footer .social_icon li a {
+     font-size: 2em;
+     color: white;
+     margin: 0 10px;
+     display: inline-block;
+     transition: 0.5s;
+   }
+   /* animation */
+   footer .social_icon li a:hover {
+     transform: translateY(-15px);
+     color: rgb(112, 204, 247);
+   }
+   
+   footer .menu li a {
+     font-size: 1.2em;
+     color: #111010;
+     margin: 0 10px;
+    
+  display: inline-block;
+     transition: 0.5s;
+     text-decoration: none;
+     opacity: 0.75;
+   }
+   footer .menu li a:hover {
+     opacity: 1;
+     color: #fff;
+   }
 
 
 /* Additional customization for smaller screens */
